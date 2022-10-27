@@ -25,7 +25,8 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".ProductActivity" android:label="Second"/>
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".SignUpActivity" />
     </application>
 
 </manifest>

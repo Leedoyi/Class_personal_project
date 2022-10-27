@@ -1,23 +1,22 @@
 package com.example.class_mobile;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-public class ProductActivity extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class SignUpActivity extends AppCompatActivity {
+
     private final long finishtimeed = 1000;
     private long presstime = 0;
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState){
+    protected  void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_product);
-
-
+        setContentView(R.layout.activity_signup);
 
     }
-
 
     @Override
     public void onBackPressed() {
