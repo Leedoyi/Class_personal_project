@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recycleView"
+    android:layout_row="2"
+    android:layout_column="2">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="244dp"
+            android:layout_height="300dp"
+            android:layout_row="0"
+            android:layout_rowSpan="2"
+            android:layout_column="0"
+            android:src="@drawable/outer_best1" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_toRightOf="@+id/image"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="outer_best1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+<!--        <Button-->
+<!--            android:id="@+id/deletebtn_outer1"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_row="1"-->
+<!--            android:layout_column="1"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:text="delete" />-->
+
+
+</GridLayout>

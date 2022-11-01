@@ -6,13 +6,92 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textSize="25sp" />
+
     <ImageButton
         android:id="@+id/market_button"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginLeft="350dp"
         android:layout_marginTop="25dp"
-        android:src="@drawable/market_icon" />
+        android:src="@drawable/market_icon"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="105dp"
+        android:text="DOYI"
+        android:textColor="#000000"
+        android:textSize="50dp" />
+
+
+    <TextView
+        android:id="@+id/login_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="229dp"
+        android:text="아이디" />
+
+
+
+    <EditText
+        android:id="@+id/login_id_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="281dp"
+        android:text="비밀번호" />
+
+    <EditText
+        android:id="@+id/login_password_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="59dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    <CheckBox
+        android:id="@+id/auto_login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="259dp"
+        android:text="자동로그인"
+        tools:ignore="TouchTargetSizeCheck" />
 
 
 
@@ -45,62 +124,7 @@
         android:backgroundTint="#D39ACF"
         android:text="회원가입" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="105dp"
-        android:text="DOYI"
-        android:textColor="#000000"
-        android:textSize="50dp" />
 
-    <TextView
-        android:id="@+id/login_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="229dp"
-        android:text="아이디" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="268dp"
-        android:layout_marginEnd="59dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="214dp"
-        android:layout_marginEnd="59dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/login_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="281dp"
-        android:text="비밀번호" />
 
 
 </RelativeLayout>
